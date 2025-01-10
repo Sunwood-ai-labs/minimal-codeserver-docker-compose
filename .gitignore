@@ -169,3 +169,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Docker関連
+docker-compose.override.yml
+docker-compose.log
+docker-compose.lock
+
+# 環境変数
+.env.local
+.env.dev
+.env.prod

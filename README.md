@@ -1,14 +1,20 @@
-# ![ヘッダー画像](assets/header.svg)
+<div align="center">
 
-## 📖 プロジェクト目的
+![ヘッダー画像](https://github.com/user-attachments/assets/33648eb0-f86e-4e45-a072-3cc6d5946ea4)
+
+# minimal-codeserver-docker-compose
+
+![技術スタック](https://img.shields.io/badge/-Docker-blue?logo=docker&logoColor=white)
+![技術スタック](https://img.shields.io/badge/-Compose-blue?logo=docker&logoColor=white)
+![技術スタック](https://img.shields.io/badge/-CodeServer-green?logo=code-server&logoColor=white)
+
+![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)
+
 このプロジェクトはWindows環境でcode-serverをDockerコンテナとして簡単に実行するための最小構成を提供します。
 
-## 🛠 使用方法
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/33648eb0-f86e-4e45-a072-3cc6d5946ea4" alt="GitHubバッチ" />
-  <img src="https://github.com/user-attachments/assets/33648eb0-f86e-4e45-a072-3cc6d5946ea4" alt="技術スタックバッチ" />
 </div>
+
+## 🛠 使用方法
 
 1. 環境変数の設定
    - `.env`ファイルに以下の内容を記載：

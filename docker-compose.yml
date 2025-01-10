@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  code-server:
+    image: codercom/code-server:latest
+    container_name: code-server
+    ports:
+      - "0.0.0.0:8080:8080"
+    volumes:
+      - ${USERPROFILE}/.local:/home/coder/.local
+      - ${USERPROFILE}/.config:/home/coder/.config
+      - .:/home/coder/project
+    environment:
+      DOCKER_USER: ${USERNAME}
+    restart: unless-stopped
